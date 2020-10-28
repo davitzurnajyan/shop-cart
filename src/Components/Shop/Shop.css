@@ -1,0 +1,39 @@
+.shop{
+    width: 60%;
+}
+
+.full_shop{
+    width: 100%;
+}
+
+.shop_products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.shop_product{
+    border: 1px dashed grey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.shop .shop_product{
+    width: 49%;
+}
+
+.full_shop .shop_product{
+    width: 32%;
+}
+
+.shop_product_footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.shop_product_footer button{
+    background-color: unset;
+    border: unset;
+    color: darkblue;
+}
